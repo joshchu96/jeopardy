@@ -1,0 +1,72 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+  font-family: "Copse", sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+#game-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+button {
+  background-color: #115ff4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #060ce9;
+}
+
+#jeopardy {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#jeopardy th,
+#jeopardy td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+#jeopardy th {
+  background-color: #28a200;
+  color: #fff;
+}
+
+#jeopardy td {
+  background-color: #8d2ab5;
+  color: #fff;
+  cursor: pointer;
+}
+
+#jeopardy td:hover {
+  background-color: #74119c;
+}
+
+.loading {
+  font-size: 18px;
+  color: #115ff4;
+}
